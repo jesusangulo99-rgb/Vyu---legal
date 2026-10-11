@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vyu — Support / Soporte</title>
+<meta name="description" content="Vyu support and frequently asked questions.">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#0e1628">
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: #0e1628; color: #f3ede4; overflow-x: hidden;
+  font: 17px/1.65 -apple-system, "SF Pro Text", system-ui, "Helvetica Neue", Arial, sans-serif; }
+a { color: #e9dcc6; }
+a:hover { color: #ffffff; }
+:focus-visible { outline: 2px solid #d06a4c; outline-offset: 3px; border-radius: 4px; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 28px 32px 88px; }
+header.top { display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 8px 0 28px; border-bottom: 1px solid #2c3a5c; margin-bottom: 36px; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+.brand span { font-size: 17px; font-weight: 700; letter-spacing: 1.4px; color: #f3ede4; }
+.lang { display: flex; gap: 8px; }
+.lang button { font: inherit; font-size: 14px; padding: 7px 15px; border-radius: 999px;
+  border: 1px solid #2c3a5c; background: transparent; color: #9aa3b5; cursor: pointer; }
+.lang button:hover { color: #f3ede4; }
+.lang button[aria-pressed="true"] { background: #24314f; border-color: #3d4c6e; color: #f3ede4; font-weight: 600; }
+h1 { font-family: -apple-system, "SF Pro Display", system-ui, sans-serif;
+  font-size: clamp(30px, 7vw, 40px); line-height: 1.15; font-weight: 700; letter-spacing: -0.6px;
+  margin: 0 0 6px; color: #f3ede4; }
+h2 { font-size: 20px; line-height: 26px; font-weight: 600; margin: 40px 0 10px; color: #f3ede4; }
+p, li { margin: 10px 0; color: #9aa3b5; }
+strong { color: #f3ede4; font-weight: 600; }
+ul { padding-left: 22px; }
+.meta { color: #9aa3b5; font-size: 15px; margin-bottom: 24px; }
+.card { background: #18233d; border: 1px solid #2c3a5c; border-radius: 24px;
+  padding: 8px 24px; margin: 20px 0; }
+table { width: 100%; border-collapse: collapse; font-size: 15px; }
+th, td { text-align: left; vertical-align: top; padding: 14px 10px; border-bottom: 1px solid #2c3a5c; color: #9aa3b5; }
+th { color: #e9dcc6; font-weight: 600; font-size: 13px; letter-spacing: 0.6px; text-transform: uppercase; }
+td:first-child { color: #f3ede4; }
+tr:last-child td { border-bottom: 0; }
+nav.links { display: grid; gap: 14px; margin: 28px 0; }
+nav.links a { display: block; background: #18233d; border: 1px solid #2c3a5c; border-radius: 20px;
+  padding: 18px 22px; text-decoration: none; color: #f3ede4; font-weight: 600; }
+nav.links a:hover { border-color: #d06a4c; color: #f3ede4; }
+nav.links a small { display: block; font-weight: 400; color: #9aa3b5; margin-top: 4px; }
+footer { margin-top: 56px; padding-top: 24px; border-top: 1px solid #2c3a5c;
+  color: #9aa3b5; font-size: 14px; }
+[hidden] { display: none !important; }
+@media (max-width: 480px) { .wrap { padding: 24px 16px 64px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a class="brand" href="/"><svg viewBox="0 0 1024 1024" width="30" height="30" aria-hidden="true" style="display:block"><rect width="1024" height="1024" rx="230" fill="#CA4A2F"></rect><path d="M310 474 A 13990 13990 0 0 1 709 474 A 200 200 0 0 1 310 474 Z" fill="#16213A"></path><path d="M136 477 A 665.7 665.7 0 0 1 884 477 A 13990 13990 0 0 1 136 477 Z" fill="#EFE8DE"></path><circle cx="578" cy="561" r="30" fill="#EFE8DE"></circle></svg><span>VYU</span></a>
+  <div class="lang" role="group" aria-label="Language / Idioma">
+    <button type="button" data-set="en" aria-pressed="true">English</button>
+    <button type="button" data-set="es" aria-pressed="false">Español</button>
+  </div>
+</header>
+
+<main>
+<article data-l="en">
+<h1>Support</h1>
+<p>Questions, problems or ideas? Write to <a href="mailto:support@vyu.money">support@vyu.money</a>. We read every message.</p>
+
+<h2>Common questions</h2>
+<p><strong>My Apple Pay payments aren't being logged.</strong><br>
+Open Vyu › Profile › the Apple Pay logging guide and follow the steps. In the Shortcuts app, open the Automation tab and make sure the Vyu automation is switched on. Then make a test payment.</p>
+
+<p><strong>Receipts from email aren't arriving.</strong><br>
+Vyu only sees emails that arrive in Apple Mail and trigger the automation. Check that the automation is on and that the account is set to receive mail automatically. Receipts that only reach other mail apps aren't picked up.</p>
+
+<p><strong>I see two notifications for each expense.</strong><br>
+Shortcuts shows its own banner. In Settings › Screen Time, turn off only the banners for Shortcuts. Don't turn off all Shortcuts notifications, or Vyu's notifications will stop too.</p>
+
+<p><strong>How do I send feedback?</strong><br>
+Profile › Send feedback. It opens an email to us with your app version and iPhone model, and nothing about your expenses.</p>
+
+<p><strong>How do I add a receipt from Photos or Files?</strong><br>
+Open the photo or PDF, tap Share and choose Vyu. If you don't see it, scroll the share sheet to More and turn Vyu on.</p>
+
+<p><strong>How do I manage or cancel Vyu Pro?</strong><br>
+On your iPhone: Settings › your name › Subscriptions › Vyu.</p>
+
+<p><strong>How do I restore my purchase?</strong><br>
+Open Vyu › Profile › Vyu Pro › Restore purchases.</p>
+
+<p><strong>How do I back up or move my data?</strong><br>
+Profile › Your data › Export backup, then Import backup on the new device. Receipt photos aren't included.</p>
+
+<p><strong>How do I delete my data?</strong><br>
+Profile › Danger zone › Delete all my data. Deleting the app also removes its data from your iPhone.</p>
+
+<p class="meta">See also: <a href="privacy.html#en">Privacy Policy</a> · <a href="terms.html#en">Terms of Use</a></p>
+</article>
+
+<article data-l="es" hidden>
+<h1>Soporte</h1>
+<p>¿Preguntas, problemas o ideas? Escribe a <a href="mailto:support@vyu.money">support@vyu.money</a>. Leemos todos los mensajes.</p>
+
+<h2>Preguntas frecuentes</h2>
+<p><strong>Mis pagos con Apple Pay no se registran.</strong><br>
+Abre Vyu › Perfil › la guía de pagos con el iPhone y sigue los pasos. En la app Atajos, entra a la pestaña Automatización y comprueba que la automatización de Vyu esté encendida. Luego haz un pago de prueba.</p>
+
+<p><strong>Los recibos del correo no llegan.</strong><br>
+Vyu solo ve los correos que llegan a Apple Mail y activan la automatización. Comprueba que la automatización esté encendida y que la cuenta reciba el correo automáticamente. Los recibos que solo llegan a otras apps de correo no se detectan.</p>
+
+<p><strong>Me llegan dos notificaciones por cada gasto.</strong><br>
+Atajos muestra su propio aviso. En Ajustes › Tiempo en pantalla, apaga solo los banners de Atajos. No apagues todas las notificaciones de Atajos, o dejarán de llegar también las de Vyu.</p>
+
+<p><strong>¿Cómo envío comentarios?</strong><br>
+Perfil › Enviar comentarios. Abre un correo para nosotros con la versión de la app y el modelo de tu iPhone, y nada de tus gastos.</p>
+
+<p><strong>¿Cómo agrego un recibo desde Fotos o Archivos?</strong><br>
+Abre la foto o el PDF, toca Compartir y elige Vyu. Si no la ves, desliza la hoja de compartir hasta Más y activa Vyu.</p>
+
+<p><strong>¿Cómo administro o cancelo Vyu Pro?</strong><br>
+En tu iPhone: Ajustes › tu nombre › Suscripciones › Vyu.</p>
+
+<p><strong>¿Cómo restauro mi compra?</strong><br>
+Abre Vyu › Perfil › Vyu Pro › Restaurar compras.</p>
+
+<p><strong>¿Cómo respaldo o muevo mis datos?</strong><br>
+Perfil › Tus datos › Exportar respaldo, y luego Importar respaldo en el dispositivo nuevo. Las fotos de recibos no se incluyen.</p>
+
+<p><strong>¿Cómo borro mis datos?</strong><br>
+Perfil › Zona de peligro › Borrar todos mis datos. Al desinstalar la app, también se eliminan sus datos del iPhone.</p>
+
+<p class="meta">Ver también: <a href="privacy.html#es">Política de Privacidad</a> · <a href="terms.html#es">Términos de Uso</a></p>
+</article>
+</main>
+
+<footer>© Jesus Angulo · ABN 78 230 763 953 · <a href="/">Vyu</a></footer>
+</div>
+<script>
+(function(){
+  var saved=null;try{saved=localStorage.getItem('vyu-lang')}catch(e){}
+  var nav=(navigator.language||'en').slice(0,2).toLowerCase();
+  var hash=location.hash.replace('#','');
+  var lang=(hash==='es'||hash==='en')?hash:(saved||(nav==='es'?'es':'en'));
+  function apply(l){
+    document.documentElement.lang=l;
+    document.querySelectorAll('[data-l]').forEach(function(el){el.hidden=el.getAttribute('data-l')!==l});
+    document.querySelectorAll('.lang button').forEach(function(b){b.setAttribute('aria-pressed',b.getAttribute('data-set')===l?'true':'false')});
+    try{localStorage.setItem('vyu-lang',l)}catch(e){}
+  }
+  document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){apply(b.getAttribute('data-set'))})});
+  apply(lang);
+})();
+</script>
+</body>
+</html>
